@@ -1,0 +1,11 @@
+mzsolutions_site/
+├─ index.html
+├─ styles.css
+├─ script.js
+└─ assets/
+   ├─ img/
+   │  ├─ logo.png      ← replace with your real logo
+   │  ├─ cloud.jpg     ← optional service images (suggested names below)
+   │  └─ ...           ← add screenshots / portfolio images here
+   └─ lottie/
+      └─ custom.json   ← optional: local Lottie JSON if you host it yourself
