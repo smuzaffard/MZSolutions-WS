@@ -1,50 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Contact – MZ Solutions</title>
-<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-<nav class="nav">
-  <div class="logo">MZ Solutions</div>
-  <ul class="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html" class="active">Contact</a></li>
-  </ul>
-</nav>
-
-<header class="sub-header">
-  <h1>Contact Us</h1>
-</header>
-
 <section class="contact-section">
 
-  <!-- Contact Details -->
-  <div class="contact-details">
-    <h2>Get in Touch</h2>
-    <p><strong>Name:</strong> Syed Muzaffar</p>
-    <p><strong>Email:</strong> <a href="mailto:muzaffar@mzsolutions.in">muzaffar@mzsolutions.in</a></p>
-    <p><strong>Phone:</strong> <a href="tel:+971501438066">+971 50 143 8066</a></p>
+  <div class="contact-container">
+
+    <!-- Left: Contact Details -->
+    <div class="contact-details">
+      <h2>Get in Touch</h2>
+
+      <p>
+        <span class="icon">👤</span>
+        <strong>Syed Muzaffar</strong>
+      </p>
+
+      <p>
+        <span class="icon">📧</span>
+        <a href="mailto:muzaffar@mzsolutions.in">
+          muzaffar@mzsolutions.in
+        </a>
+      </p>
+
+      <p>
+        <span class="icon">📞</span>
+        <a href="tel:+971501438066">
+          +971 50 143 8066
+        </a>
+      </p>
+
+      <a class="whatsapp-btn" 
+         href="https://wa.me/971501438066" 
+         target="_blank">
+        💬 Chat on WhatsApp
+      </a>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <form id="contactForm" class="contact-form"
+      onsubmit="event.preventDefault(); alert('Message sent (demo)');">
+
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+
+    </form>
+
   </div>
 
-  <!-- Contact Form -->
-  <form id="contactForm" onsubmit="event.preventDefault(); alert('Message sent (demo)');">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" rows="6" required></textarea>
-    <button class="btn" type="submit">Send Message</button>
-  </form>
-
 </section>
-
-<footer class="footer">
-  <p>© 2025 MZ Solutions.</p>
-</footer>
-
-</body>
-</html>
