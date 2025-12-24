@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
 <nav class="nav">
   <div class="logo">MZ Solutions</div>
   <ul class="menu">
@@ -22,16 +23,28 @@
 </header>
 
 <section class="contact-section">
+
+  <!-- Contact Details -->
+  <div class="contact-details">
+    <h2>Get in Touch</h2>
+    <p><strong>Name:</strong> Syed Muzaffar</p>
+    <p><strong>Email:</strong> <a href="mailto:muzaffar@mzsolutions.in">muzaffar@mzsolutions.in</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+971501438066">+971 50 143 8066</a></p>
+  </div>
+
+  <!-- Contact Form -->
   <form id="contactForm" onsubmit="event.preventDefault(); alert('Message sent (demo)');">
     <input type="text" name="name" placeholder="Your name" required>
     <input type="email" name="email" placeholder="Your email" required>
     <textarea name="message" placeholder="Your message" rows="6" required></textarea>
     <button class="btn" type="submit">Send Message</button>
   </form>
+
 </section>
 
 <footer class="footer">
   <p>© 2025 MZ Solutions.</p>
 </footer>
+
 </body>
 </html>
