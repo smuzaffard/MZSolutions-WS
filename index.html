@@ -1,143 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ Solutions — IT Beyond Imagination</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MZ Solutions — Smart IT & Infrastructure</title>
+  <meta name="description" content="MZ Solutions — Cloud, Office365, Tally-on-Web, IT Infrastructure, CCTV, Biometric & Corporate Email services." />
+  <link rel="icon" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Lottie + GSAP (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
 </head>
 <body>
 
-<header class="hero">
-    <div class="overlay"></div>
-    <h1 class="title">MZ Solutions</h1>
-    <p class="subtitle">Innovating Beyond Imagination</p>
-    <a href="#services" class="btn">Explore</a>
-</header>
-
-<section id="services" class="section">
-    <h2 class="section-title">Our Premium Services</h2>
-    <div class="cards">
-
-        <!-- Cloud Computing -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4144/4144710.png" class="icon">
-            <h3>Cloud Computing</h3>
-            <p>Scalable cloud services with secure access and high performance.</p>
-        </div>
-
-        <!-- Microsoft 365 -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" class="icon">
-            <h3>Microsoft Office 365</h3>
-            <p>Enterprise-grade productivity tools for your organization.</p>
-        </div>
-
-        <!-- Tally on Web -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/1157/1157109.png" class="icon">
-            <h3>Tally on Web</h3>
-            <p>Access your Tally from anywhere, anytime — securely.</p>
-        </div>
-
-        <!-- IT Infrastructure Setup -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" class="icon">
-            <h3>IT Infrastructure Setup</h3>
-            <p>Complete IT infra deployment for offices & enterprises.</p>
-        </div>
-
-        <!-- Biometric -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/2917/2917994.png" class="icon">
-            <h3>Biometric Services</h3>
-            <p>Time-attendance, access control & identity management systems.</p>
-        </div>
-
-        <!-- CCTV -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/483/483947.png" class="icon">
-            <h3>CCTV Solutions</h3>
-            <p>Complete CCTV installation & monitoring systems.</p>
-        </div>
-
-        <!-- Corporate Email -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" class="icon">
-            <h3>Corporate Email Services</h3>
-            <p>Professional business email with advanced security.</p>
-        </div>
-
-        <!-- Cloud Backup Solutions -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" class="icon">
-            <h3>Cloud Backup Solutions</h3>
-            <p>Automatic, secure and encrypted backup solutions for businesses.</p>
-        </div>
-
-        <!-- AMC Support -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/3208/3208750.png" class="icon">
-            <h3>Annual Maintenance (AMC)</h3>
-            <p>Reliable periodic maintenance to keep your IT running smoothly.</p>
-        </div>
-
-        <!-- Remote Support -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/6326/6326100.png" class="icon">
-            <h3>Remote IT Support</h3>
-            <p>Instant remote troubleshooting and technical assistance.</p>
-        </div>
-
-        <!-- Web Hosting -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" class="icon">
-            <h3>Web Hosting</h3>
-            <p>Fast and secure web hosting with 99.9% uptime.</p>
-        </div>
-
-        <!-- Domain & SSL -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/3917/3917036.png" class="icon">
-            <h3>Domain & SSL</h3>
-            <p>Get your domain and secure it with trusted SSL certificates.</p>
-        </div>
-
-        <!-- Server Setup -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" class="icon">
-            <h3>Server Installation</h3>
-            <p>Secure and optimized server deployment for business operations.</p>
-        </div>
-
-        <!-- Data Recovery -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/5223/5223312.png" class="icon">
-            <h3>Data Recovery</h3>
-            <p>Recover lost data from damaged or corrupted storage devices.</p>
-        </div>
-
-        <!-- IT Consultancy -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/3842/3842541.png" class="icon">
-            <h3>IT Consultancy</h3>
-            <p>Professional guidance for digital transformation and IT growth.</p>
-        </div>
-
-         <!-- Contact US -->
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/3842/3842541.png" class="icon">
-            <h3>Contact US</h3>
-            <p>Syed Muzaffar muzaffar@mzsolutions.in +971501438066</p>
-        </div>
-        
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="assets/img/logo.png" alt="MZ Solutions logo" class="logo"/>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
     </div>
-</section>
+  </header>
 
-<footer class="footer">
-    <p>© 2025 MZ Solutions | Designed for Excellence</p>
-</footer>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>IT Solutions beyond imagination</h1>
+        <p>Cloud computing, Microsoft Office 365, Tally on Web, IT infrastructure, biometric & CCTV solutions, and corporate email services — built secure and scalable.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn primary">Get a Quote</a>
+          <a href="#services" class="btn outline">Explore Services</a>
+        </div>
+      </div>
 
-<script src="script.js"></script>
+      <div class="hero-animation">
+        <!-- Lottie container -->
+        <div id="heroLottie" class="lottie-wrap" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES list with icons -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Premium Services</h2>
+      <p class="lead">We offer end-to-end solutions — from infrastructure to enterprise apps.</p>
+
+      <div class="grid services-grid">
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4144/4144710.png" alt="Cloud icon" class="service-icon">
+          <h3>Cloud Computing</h3>
+          <p>Scalable cloud architecture, migration, management and 24/7 monitoring.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Office365 icon" class="service-icon">
+          <h3>Microsoft Office 365</h3>
+          <p>Office 365 provisioning, management, backups, and user training.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1157/1157109.png" alt="Tally icon" class="service-icon">
+          <h3>Tally on Web</h3>
+          <p>Host Tally on secure servers and access it from anywhere — multi-user ready.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" alt="Infrastructure icon" class="service-icon">
+          <h3>IT Infrastructure Setup</h3>
+          <p>Complete office network setup: servers, switches, Wi-Fi, cabling & backups.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2917/2917994.png" alt="Biometric icon" class="service-icon">
+          <h3>Biometric Systems</h3>
+          <p>Time-attendance, door access control, integration with payroll & HR systems.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/483/483947.png" alt="CCTV icon" class="service-icon">
+          <h3>CCTV Solutions</h3>
+          <p>Design, install and monitor CCTV systems with remote viewing & alerts.</p>
+        </article>
+
+        <article class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Email icon" class="service-icon">
+          <h3>Corporate Email Services</h3>
+          <p>Secure, managed corporate email with spam protection and archiving.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES / Benefits -->
+  <section id="features" class="section alt">
+    <div class="container">
+      <h2>Why choose MZ Solutions?</h2>
+      <div class="grid features-grid">
+        <div>
+          <h4>Security-first</h4>
+          <p>We design systems with security & compliance baked in.</p>
+        </div>
+        <div>
+          <h4>Anywhere Access</h4>
+          <p>Access Tally and business apps securely from any location.</p>
+        </div>
+        <div>
+          <h4>24/7 Support</h4>
+          <p>Round-the-clock support and proactive monitoring.</p>
+        </div>
+        <div>
+          <h4>Scalable</h4>
+          <p>From small shops to large enterprises — we scale with you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About MZ Solutions</h2>
+      <p class="lead">We deliver engineering-grade IT solutions with a human touch. Our team handles planning, deployment and ongoing support.</p>
+      <div class="about-grid">
+        <img src="assets/img/cloud.jpg" alt="Cloud illustration" class="about-img">
+        <div>
+          <ul class="about-list">
+            <li>Consultation & design</li>
+            <li>Implementation & migration</li>
+            <li>Maintenance & training</li>
+            <li>Security audits & compliance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact us</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" onsubmit="return handleContact(event)">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" placeholder="Email address" type="email" required>
+          <input name="phone" placeholder="Phone (optional)">
+          <textarea name="message" rows="6" placeholder="Tell us about your project" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send Message</button>
+            <button type="reset" class="btn outline">Reset</button>
+          </div>
+        </form>
+
+        <div class="contact-info">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:muzaffar@mzsolutions.in">muzaffar@mzsolutions.in</a></p>
+          <p>Phone: +971 501438066</p>
+          <p>Address: India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> MZ Solutions — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
