@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000cc, #000000dd),
+    url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80') 
+    center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+.subtitle {
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: cyan;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+.section-title {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    background: #1a1a1a;
+    padding: 25px;
+    width: 280px;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-align: center;
+    border: 1px solid #222;
+}
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 10px 30px rgba(0,255,255,0.4);
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px;
+    background: #000;
+    text-align: center;
+    opacity: 0.8;
+}
